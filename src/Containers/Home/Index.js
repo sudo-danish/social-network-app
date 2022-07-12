@@ -11,7 +11,6 @@ import SkeletonPost from './SkeletonPost'
 
 const Home = () => {
   const [postsObj, setPostsObj] = React.useState([])
-  console.log(postsObj);
   const [showMessage, setShowMessage] = React.useState(false)
 
   useEffect(() => {
